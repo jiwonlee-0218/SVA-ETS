@@ -1,0 +1,6 @@
+dataset_root: "../data"
+name: gaddy
+num_emg_sessions: 17
+num_emg_channels: 8
+requires_activation: "tanh"
+strict: false
