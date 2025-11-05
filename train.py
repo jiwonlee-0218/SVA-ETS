@@ -23,7 +23,7 @@ from align import align_from_distances
 from main_constants import *
 
 
-from models.emg_encoder import EMGEncoderTransformer, init_emg_encoder
+from emg_encoder import EMGEncoderTransformer, init_emg_encoder
 from pathlib import Path
 import yaml
 from typing import Optional
