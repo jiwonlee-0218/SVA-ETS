@@ -16,7 +16,7 @@ import omegaconf
 from read_emg import EMGDataset
 
 from torch.utils.tensorboard import SummaryWriter
-from emg_encoder import constants as enc_constants
+import constants as enc_constants
 from utils import (SizeAwareSampler, collate_raw, init_voiced_datasets_emg_encoder_training, 
                    decollate_tensor, combine_fixed_length)
 from align import align_from_distances
